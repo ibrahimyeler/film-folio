@@ -25,8 +25,8 @@ export default function Profile() {
             <div className="flex-1">
               <div className="flex items-center justify-between">
                 <div>
-                  <h1 className="text-2xl font-bold text-gray-900 dark:text-white">John Doe</h1>
-                  <p className="text-gray-500 dark:text-gray-400">@johndoe</p>
+                  <h1 className="text-2xl font-bold text-gray-900 dark:text-white">Admin</h1>
+                  <p className="text-gray-500 dark:text-gray-400">@admin123</p>
                 </div>
                 <button className="flex items-center space-x-2 px-4 py-2 bg-gray-100 dark:bg-gray-700 rounded-full text-gray-700 dark:text-gray-300 hover:bg-gray-200 dark:hover:bg-gray-600">
                   <Settings className="w-5 h-5" />
