@@ -14,7 +14,6 @@ export default function Discover() {
                 <Link href="/" className="text-3xl font-bold logo-text">
                   FilmFolio
                 </Link>
-                <h1 className="text-2xl font-bold text-gray-900 dark:text-white">Discover</h1>
               </div>
               <div className="flex items-center space-x-4">
                 <button className="flex items-center space-x-2 px-4 py-2 rounded-full bg-gray-100 dark:bg-gray-700 hover:bg-gray-200 dark:hover:bg-gray-600">

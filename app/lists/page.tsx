@@ -12,7 +12,6 @@ export default function Lists() {
               <Link href="/" className="text-3xl font-bold logo-text">
                 FilmFolio
               </Link>
-              <h1 className="text-2xl font-bold text-gray-900 dark:text-white">My Lists</h1>
             </div>
             <button className="flex items-center space-x-2 px-4 py-2 rounded-full bg-blue-500 text-white hover:bg-blue-600">
               <Plus className="w-5 h-5" />
