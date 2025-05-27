@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 import { Star, Heart, MessageCircle, User, Search, Bell, Clock, Calendar, ThumbsUp, Share2, Bookmark } from "lucide-react";
 
 export default function Home() {
@@ -9,11 +10,15 @@ export default function Home() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4">
           <div className="flex items-center justify-between">
             <div className="flex items-center space-x-8">
-              <h1 className="text-2xl font-bold text-gray-900 dark:text-white">FilmFolio</h1>
+              <Link href="/" className="text-3xl font-bold logo-text">
+                FilmFolio
+              </Link>
               <div className="hidden md:flex items-center space-x-6">
-                <a href="#" className="text-gray-600 dark:text-gray-300 hover:text-gray-900 dark:hover:text-white">Discover</a>
-                <a href="#" className="text-gray-600 dark:text-gray-300 hover:text-gray-900 dark:hover:text-white">My Lists</a>
-                <a href="#" className="text-gray-600 dark:text-gray-300 hover:text-gray-900 dark:hover:text-white">Community</a>
+                <Link href="/discover" className="text-gray-600 dark:text-gray-300 hover:text-gray-900 dark:hover:text-white">
+                  Discover
+                </Link>
+                <Link href="/lists" className="text-gray-600 dark:text-gray-300 hover:text-gray-900 dark:hover:text-white">My Lists</Link>
+                <Link href="/community" className="text-gray-600 dark:text-gray-300 hover:text-gray-900 dark:hover:text-white">Community</Link>
               </div>
             </div>
             <div className="flex items-center space-x-4">
