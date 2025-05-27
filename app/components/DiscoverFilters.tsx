@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { Star, SlidersHorizontal, Search } from 'lucide-react';
+import { SlidersHorizontal, Search } from 'lucide-react';
 
 interface FilterState {
   year: string;
