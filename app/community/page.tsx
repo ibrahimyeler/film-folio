@@ -13,7 +13,6 @@ export default function Community() {
               <Link href="/" className="text-3xl font-bold logo-text">
                 FilmFolio
               </Link>
-              <h1 className="text-2xl font-bold text-gray-900 dark:text-white">Community</h1>
             </div>
             <div className="flex items-center space-x-4">
               <div className="relative">
